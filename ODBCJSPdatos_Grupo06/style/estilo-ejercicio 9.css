@@ -1,0 +1,71 @@
+  
+ 
+  
+  
+  
+  input[type=text], 
+  input[type=action], 
+  select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(85, 5, 5);
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  div 
+{
+  border-radius: 5px;
+  background-color: #f2f2ff;
+  padding: 20px;
+  text-align: center;
+  }
+  
+  form {
+      border-style: solid;
+      border-width: 2;
+  }
+  
+  /*Para los botones*/
+  input[type=submit] {/*Color del boton*/
+    width: 100%;
+    background-color: #1a951f;
+    color: red;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {/*Color del boton cuando pase el cursor*/
+  background-color: #4bc83f;
+  }
+  input[type=submit]:disabled {/*Color del boton cuando ese deshabilitado*/
+  background-color: grey;
+  }
+  
+  a:link, a:visited {/*Color para URL*/
+      background-color: white;
+      color: black;
+      border: 2px solid #800080;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      border-radius: 10px;
+    }
+  
+  a:visited {/*Color para ACTUALIZAR*/
+      background-color: rgb(0, 195, 255);
+      color: black;
+      border: 2px solid yellow;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      border-radius: 14px;
+    }
+  
+   

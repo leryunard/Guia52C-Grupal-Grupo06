@@ -1,0 +1,119 @@
+:root {
+    --azul: #00003d;
+    --azulmedioclaro: #00276c;
+    --azulclaro: #014ba0;
+    --azulclarito: #e96d00;
+    --blanco: #ffffff;
+    --degradado: linear-gradient(90deg, var(--azulclarito), var(--azul));
+}
+
+body{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(libros.jpg);
+    height: 100%;
+    background-repeat: repeat-y;
+    background-size: 100% 100%;
+    background-color: rgb(100,100,100);
+    
+}
+
+.listado{
+    border-style: inset;
+    border-color: rgb(3, 148, 196);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+  
+  }
+td,
+th {
+    width: 25%;
+    border: var(--azulmedioclaro) 1px solid;
+    padding: 0.3em;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Times New Roman', 'Times', 'serif';
+    color: aliceblue;
+}
+h4{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Times New Roman', 'Times', 'serif';
+    color: aliceblue;
+}
+h5{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Times New Roman', 'Times', 'serif';
+    color: rgb(255, 225, 210);
+}
+.formulario{
+    font-size: medium;
+}
+input{
+    text-align: center;
+}
+table{
+    color: aliceblue;
+    margin: auto;
+    text-align: center;
+    border-spacing: 10px;
+    width: 40%;
+    border: var(--blanco) 1px solid;
+}
+
+#cuadricula {
+    padding-top: 30px;
+    /*transforma la #cuadricula en un contenedor grid:*/
+    display: grid;
+    /*esto genera 3 columnas iguales cuya anchura es 1fr */
+    grid-template-columns: 1fr 1fr 1fr;
+    /*establece el espaciado entre los ítems del grid*/
+    grid-gap: 1em;
+}
+
+.content {
+    align-content: center;
+    min-height: 10vh;
+    padding: 5%;
+}
+  
+  .container{
+    display: grid;
+    grid-template: 40px 40px / 10% 10% 10%;
+    
+    /* AGREGAR ESPACIO ENTRE FILAS Y COLUMNAS */
+    
+    /* Agregar espacios entre columnas con -grid-column-gap- */
+    
+    /* grid-column-gap: 10px; */
+    
+    /* Agregar espacion entre filas con -grid-row-gap- */
+    
+    /* grid-row-gap: 10px; */
+    
+    /* Agregar espacio en tre filas y columnas en una misma sentencia 
+       grid-gap: [espacio entre filas] [espacio entre columnas];
+    */
+    grid-gap: 10px 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  .item{
+    background: rgb(3, 148, 196);
+    border: 1px solid rgb(255, 158, 61);
+    padding: 10px;
+    margin: 0 auto;
+  }
+
+
+
+  
